@@ -19,3 +19,6 @@
 * [x] Set up your project board with Github projects (single board for all repos)  
 * [ ] Write all stories for what you are committing to have completed by first check-in. Label with Phase 1
 
+
+## Rebase workflow
+![Screen Shot 2021-08-25 at 11 58 11 AM](https://user-images.githubusercontent.com/5446926/130861474-f6672987-bf46-4925-9521-cf4c6fad0cfc.png)
