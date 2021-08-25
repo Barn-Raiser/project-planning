@@ -1,5 +1,8 @@
 # Project Planning
 
+## Resources
+* [Wireframes](https://miro.com/welcomeonboard/Qk9iTWJpWWVwRVRnN1g1cTFwSktLbTh5RXl4RnhCdlh6NjhkdVdnSmlaM3ZpbmtYMUV1aFJlU1JhbXNCSWJNT3wzMDc0NDU3MzU3NzAyMTI5NTQw)
+
 ## Day 1 ToDo
 * [x] Create a Slack channel - add group members and project manager  
 * [x] Pin the DTR, Repository links, and Project Board in channel  
