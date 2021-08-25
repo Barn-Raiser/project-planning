@@ -12,6 +12,6 @@
 * [ ] Determine the MVP (knowing it could change as the project continues)  
 * [ ] Create wireframes  
 * [ ] Construct schema design  
-* [ ] Set up your project board with Github projects (single board for all repos)  
+* [x] Set up your project board with Github projects (single board for all repos)  
 * [ ] Write all stories for what you are committing to have completed by first check-in. Label with Phase 1
 
