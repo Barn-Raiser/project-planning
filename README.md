@@ -18,6 +18,7 @@
 * [ ] Construct schema design  
 * [x] Set up your project board with Github projects (single board for all repos)  
 * [ ] Write all stories for what you are committing to have completed by first check-in. Label with Phase 1
+* [ ] Make a JSON contract for MVP
 
 
 ## Rebase workflow
