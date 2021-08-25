@@ -26,8 +26,11 @@
 #### Create users
 #### Associate users with needs as supporters
 #### [TBD] Associate users with needs as points of contact
+#### [TBD] Authorization - Assign roles to users (organizer, community member) with different views/permissions
+#### [TBD] Authentication - Users can log in
 
 ## Feature brain dump - future work 
+* "Organizer" role users can approve/deny "Need" submissions
 * User dashboard: On visiting their dashboard, a user can see all upcoming "Needs" they are supporters on, and upcoming "Needs" they are points of contact on. They can also toggle to see past Needs they participated in. 
 * Incorporate an add-to-calendar feature when a user signs up to support a "Need"
 * Incorporate census data API to show stats about the population of a given zip code on search?
