@@ -17,7 +17,7 @@
 
 ##### Create
 * As an unauthenticated visitor, I can submit a form to create a "Need", with the following attributes:
-    * Point of contact
+    * Point of contact [for MVP this is an email address]
     * Description
     * Start time
     * End time
@@ -44,6 +44,7 @@
 ## Iteration 3 - Sprint 3
 ##### Create users
 * As a visitor to the home page, I have the option to create a user account with a username, email and password
+* In this iteration, we'll update the point of contact field on a Need to be a User_ID with a 1:many association 
    
 ##### Associate users with needs as supporters
 * As an authenticated user, I can sign up to support a "Need" that has available supporter slots 
