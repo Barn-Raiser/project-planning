@@ -12,6 +12,9 @@
 
 ## MVP - Sprint 1
 
+##### Home Page
+* As an unauthenticated visitor, when I visit the application home page I see a button to view "Needs" and a button to "Create Need"
+
 ##### Create
 * As an unauthenticated visitor, I can submit a form to create a "Need", with the following attributes:
     * Point of contact
