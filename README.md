@@ -8,7 +8,7 @@
 * [x] Pin the DTR, Repository links, and Project Board in channel  
 * [x] DTR (use gist or Google Document)  
 * [x] Initialize your repositories (don’t write any code just yet!)  
-* [ ] Normalize on the Git Rebase workflow and create a PR template  
+* [ ] Normalize on the Git Rebase workflow and create a [PR template](https://github.com/Barn-Raiser/Barn-Raiser-BE/blob/main/pull_request_template.md)  
 * [ ] Determine the MVP (knowing it could change as the project continues)  
 * [ ] Create wireframes  
 * [ ] Construct schema design  
