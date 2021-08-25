@@ -13,8 +13,8 @@
 * [x] DTR (use gist or Google Document)  
 * [x] Initialize your repositories (don’t write any code just yet!)  
 * [x] Normalize on the Git Rebase workflow and create a [PR template](https://github.com/Barn-Raiser/Barn-Raiser-BE/blob/main/pull_request_template.md)  
-* [ ] Determine the MVP (knowing it could change as the project continues)  
-* [ ] Create wireframes  
+* [x] Determine the MVP (knowing it could change as the project continues)  
+* [x] Create wireframes  
 * [ ] Construct schema design  
 * [x] Set up your project board with Github projects (single board for all repos)  
 * [ ] Write all stories for what you are committing to have completed by first check-in. Label with Phase 1
