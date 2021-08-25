@@ -2,6 +2,7 @@
 
 ## Resources
 * [Wireframes](https://miro.com/welcomeonboard/Qk9iTWJpWWVwRVRnN1g1cTFwSktLbTh5RXl4RnhCdlh6NjhkdVdnSmlaM3ZpbmtYMUV1aFJlU1JhbXNCSWJNT3wzMDc0NDU3MzU3NzAyMTI5NTQw)
+* [Schema](https://dbdiagram.io/d/6126a4586dc2bb6073bb843d)
 
 ## Design Inspirations
 * [Dribble Collection](https://dribbble.com/ShaunaMyers/collections/5096826-Barnraiser)
