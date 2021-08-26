@@ -28,8 +28,8 @@
 * [x] Create wireframes  
 * [x] Construct schema design  
 * [x] Set up your project board with Github projects (single board for all repos)  
-* [ ] Write all stories for what you are committing to have completed by first check-in. Label with Phase 1
-* [ ] Make a JSON contract for MVP
+* [x] Write all stories for what you are committing to have completed by first check-in. Label with Phase 1
+* [x] Make a JSON contract for MVP
 
 ## Schema 
 ![Screen Shot 2021-08-26 at 9 24 13 AM](https://user-images.githubusercontent.com/5446926/130990947-754e149e-5587-4580-9277-73b521e41afe.png)
