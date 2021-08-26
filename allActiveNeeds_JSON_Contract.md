@@ -13,7 +13,7 @@
 }
 ```
     
-### Response: 
+### Successful Response: 
 ```
 { "allActiveNeeds": 
   [
@@ -37,4 +37,9 @@
       "requested_supporters": int_value }
   ]
 }
+```
+
+### Unsuccessful Response: 
+```
+??
 ```
