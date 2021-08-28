@@ -1,6 +1,7 @@
 # Phase 1
 ## Request 
 ```
+### OLD 
 mutation {
   createNeed(
               point_of_contact: "string value"
@@ -14,13 +15,68 @@ mutation {
               requested_supporters: int_value
             )
  }
+ 
+### UPDATED 8/28 10:45AM MT
+mutation {
+  createNeed(input:
+    				{
+              pointOfContact: "string value"
+   						title: "This is a new need"
+              description: "string value"
+              startTime: "string value"
+              endTime: "string value"
+              streetAddress: "string value"
+              city: "string value"
+              state: "string value"
+              zipCode: "string value"
+              supportersNeeded: 12
+            }
+            )
+  # optional if you want need/id returned
+  {
+    need {
+          id
+          title
+          description  
+          pointOfContact
+          startTime 
+          endTime 
+          zipCode 
+          supportersNeeded 
+          status
+        }
+    errors
+	}
+}
+```
+
+## Response (with requested data returned)
+```
+{
+  "data": {
+    "createNeed": {
+      "need": {
+        "id": "19",
+        "title": "This is a new need",
+        "description": "string value",
+        "pointOfContact": "string value",
+        "startTime": "string value",
+        "endTime": "string value",
+        "zipCode": "string value",
+        "supportersNeeded": 12,
+        "status": 0
+      },
+      "errors": []
+    }
+  }
+}
 ```
 
 # Phase 2
 ## Request
 ```
 mutation {
-  createNeed(
+  createNeed(input: 
               point_of_contact: "string value"
               description: "string value"
               start_time: "string value"
@@ -39,8 +95,60 @@ mutation {
  }
 ```
 
+```
+mutation {
+  createNeed(input:
+    				{
+              pointOfContact: "string value"
+   						title: "This is a new need"
+              description: "string value"
+              startTime: "string value"
+              endTime: "string value"
+              streetAddress: "string value"
+              city: "string value"
+              state: "string value"
+              zipCode: "string value"
+              supportersNeeded: 12
+              categories: ["", ""]
+            }
+            )
+  {
+    need {
+          id
+          title
+          description  
+          pointOfContact
+          startTime 
+          endTime 
+          zipCode 
+          supportersNeeded 
+          status
+          categories
+        }
+  errors
+	}
+}
+```
+
 ## Response
 ```
-  # TODO: check on format for response
-    "categories": ["", "", ""]
+{
+  "data": {
+    "createNeed": {
+      "need": {
+        "id": "19",
+        "title": "This is a new need",
+        "description": "string value",
+        "pointOfContact": "string value",
+        "startTime": "string value",
+        "endTime": "string value",
+        "zipCode": "string value",
+        "supportersNeeded": 12,
+        "status": 0
+        "categories": ["", ""]
+      },
+      "errors": []
+    }
+  }
+}
 ```
