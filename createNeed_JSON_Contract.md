@@ -1,22 +1,6 @@
 # Phase 1
 ## Request 
 ```
-### OLD 
-mutation {
-  createNeed(
-              point_of_contact: "string value"
-              description: "string value"
-              start_time: "string value"
-              end_time: "string value"
-              street_address: "string value"
-              city: "string value"
-              state: "string value"
-              zip_code: "string value"
-              requested_supporters: int_value
-            )
- }
- 
-### UPDATED 8/28 10:45AM MT
 mutation {
   createNeed(input:
     	     {
@@ -32,7 +16,6 @@ mutation {
               supportersNeeded: 12
             }
             )
-  # optional if you want need/id returned
   {
     need {
           id
