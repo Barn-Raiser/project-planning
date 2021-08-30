@@ -3,6 +3,7 @@
 ## Resources
 * [Wireframes](https://miro.com/welcomeonboard/Qk9iTWJpWWVwRVRnN1g1cTFwSktLbTh5RXl4RnhCdlh6NjhkdVdnSmlaM3ZpbmtYMUV1aFJlU1JhbXNCSWJNT3wzMDc0NDU3MzU3NzAyMTI5NTQw)
 * [Schema](https://dbdiagram.io/d/6126a4586dc2bb6073bb843d)
+* [Retro #1](https://miro.com/welcomeonboard/dVlXWTR6dGxGN1V6VlNMcEhrOHlOV1lCcjM1S0VTeHJ3bEZ2bnFpMmRhbTY3a2N0dm9Ka08xcmpHbEE5VTBoZHwzMDc0NDU3MzU2NTI0ODA0NTQ4)
 
 ## Design Inspirations
 * [Dribble Collection](https://dribbble.com/ShaunaMyers/collections/5096826-Barnraiser)
