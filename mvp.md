@@ -39,8 +39,16 @@
 
 ## Phase 2 - Sprint 2 (8/31 - 9/8)
 * check in ?s: 
-   * Balancing cost of data manipulation on FE vs. cost of calls to API with our size of database. Is there a best practice? 
-   * Any flags on directin v1 of signup to lead to an email to the point of contact?
+  * Balancing cost of data manipulation on FE vs. cost of calls to API with our size of database. Is there a best practice? 
+     * Decision: To avoid so many api calls, makes sense to do it on the FE 
+     * If we were to scale bigger, we could think about pagination as a way to make it more sustainable to fetch the data on the FE
+  * Any flags on direction v1 of signup to lead to an email to the point of contact?
+     * Look into doing some kind of library to do this - could help with the secuturity. (Sendgrid, Mailchimp, etc.) 
+     * Is there another BE route? have a 'request sent' to BE 
+  * Where should we aim to be this week?
+     * Aim to have most of the functionality done on Monday 
+     * Tuesday for polishing
+     * Wednesday code freeze, for demo prep and documentation  
 
 ##### Assign category(/ies) to a "Need"
 * As an unauthenticated visitor, when I create a "Need," I am prompted to assign <TBD count> cetegory/ies to the need 
