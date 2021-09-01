@@ -70,8 +70,14 @@
    
 ##### Sign up for a "need" 
 * Button on the "Need Show" page to sign up to support a "Need"
-   * Lead to an email to the point of contact
-   
+   * Lead to an email sent to the point of contact
+* Remove the need point_of_contact from the Need Index + Need Show page 
+
+## Phase 2B 
+* Save the email address of a user when they sign up to support a Need
+* Update "Count of supporters needed" on the need index + show
+* If we have time: 
+   * (hidden link) Organizer view shows all the needs AND the emails of supporters who have signed up 
    
    
 ## Phase 3 - Sprint 3
