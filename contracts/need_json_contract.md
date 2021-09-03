@@ -1,7 +1,7 @@
 ### Request: get info on one need, identified by ID number 
 
 ```
-{ need(id:1) 
+{ need(id:28) 
   {
     title
     description  
