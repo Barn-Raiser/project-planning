@@ -24,17 +24,28 @@
 
 ```
 {
-    "data": {
-        "need": {
-            "title": "This is a new need",
-            "description": "string value",
-            "pointOfContact": "string value",
-            "startTime": "string value",
-            "endTime": "string value",
-            "zipCode": "string value",
-            "supportersNeeded": 12,
-            "status": "active"
+  "data": {
+    "need": {
+      "id": "28",
+      "title": "Dicta aut quae.",
+      "description": "Magni error eveniet. Rerum quisquam est. Sequi quo accusamus.",
+      "pointOfContact": "breann@wisoky-doyle.co",
+      "startTime": "2021-09-02 18:05:47 -0600",
+      "endTime": "2021-09-02 18:05:48 -0600",
+      "zipCode": "62677-9091",
+      "supportersNeeded": 48,
+      "status": "active",
+      "categories": [
+        {
+          "id": "2",
+          "tag": "Et."
+        },
+        {
+          "id": "3",
+          "tag": "Aut."
         }
+      ]
     }
+  }
 }
 ```
