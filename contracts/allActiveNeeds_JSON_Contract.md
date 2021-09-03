@@ -11,6 +11,11 @@
     zipCode 
     supportersNeeded 
     status
+    categories
+      {
+      id
+      tag
+      }
   }
 }
 ```
