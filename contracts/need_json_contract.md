@@ -3,6 +3,7 @@
 ```
 { need(id:28) 
   {
+    id
     title
     description  
     pointOfContact
