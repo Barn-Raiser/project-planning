@@ -10,9 +10,9 @@
 * [x] CI platform is integrated 
 * [x] CORS setup in place to enable FE app to call endpoints 
 
-## Phase 1/MVP - Sprint 1
+## ✅   Phase 1/MVP - Sprint 1
 
-##### Home Page
+##### Home Page   
 * As an unauthenticated visitor, when I visit the application home page I see a button to view "Needs" and a button to "Create Need"
 
 ##### Create
@@ -33,11 +33,11 @@
  * Upon submitting a "Need", I will be redirected to the "Needs Index", where I will see the new need listed
 
 ##### Index
-* As an unauthenticated visitor, I can see the "Needs Index" page which shows all needs, ordered by start date 
+* As an unauthenticated visitor, I can see the "Needs Index" page which shows all needs
 
 
 
-## Phase 2 - Sprint 2 (8/31 - 9/8)
+## Phase 2A - Sprint 2 (8/31 - 9/8)
 * check in ?s: 
   * Balancing cost of data manipulation on FE vs. cost of calls to API with our size of database. Is there a best practice? 
      * Decision: To avoid so many api calls, makes sense to do it on the FE 
@@ -51,12 +51,12 @@
      * Wednesday code freeze, for demo prep and documentation  
 
 ##### Assign category(/ies) to a "Need"
-* As an unauthenticated visitor, when I create a "Need," I am prompted to assign <TBD count> cetegory/ies to the need 
+* As an unauthenticated visitor, when I create a "Need," I am prompted to assign <TBD count> category/ies to the need 
    * How are categories created/defined?
       * Hard coded on the BE, including an "other" 
    * How many categories can a user assign?
       * One (for now) in a dropdown menu
-         * Maybe build DB to accomodate future iteration with many:many?
+         * DB is built to accomodate as many categories as we'd like to assign
 
 ##### Filter "Needs Index" page by some attributes
 * As an unauthenticated visitor, I can filter the "Needs Index" page by the following attributes:
