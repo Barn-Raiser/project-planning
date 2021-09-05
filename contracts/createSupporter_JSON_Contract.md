@@ -7,37 +7,37 @@ Notes:
 ```
 mutation {
   createSupporter(input:
-  	{
-      name: "Aliya"
-      email: "supporter@example.com"
-      need: 1
-    }
-  )
+		    {
+		      name: "Aliya"
+		      email: "supporter@example.com"
+		      need: 1
+		    }
+  		)
 
-  {
-    supporter {
-          id
-          name
-      		email
-      		need
-    				{
-              id
-              title
-              description  
-              pointOfContact
-              startTime 
-              endTime 
-              zipCode 
-              supportersNeeded 
-              status
-              categories{
-                  id
-                  tag
-                }
-            }
-        }
-  errors
-	}
+		  {
+		    supporter {
+			  id
+			  name
+			  email
+			  need
+			    {
+			      id
+			      title
+			      description  
+			      pointOfContact
+			      startTime 
+			      endTime 
+			      zipCode 
+			      supportersNeeded 
+			      status
+			      categories{
+				  id
+				  tag
+				}
+			    }
+			}
+		  errors
+		}
 }
 ```
 
