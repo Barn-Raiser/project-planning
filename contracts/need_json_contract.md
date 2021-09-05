@@ -1,4 +1,7 @@
-### Request: get info on one need, identified by ID number 
+### Request: 
+
+To: `https://barn-raiser-be.herokuapp.com/graphql`    
+Returns data for a single need
 
 ```
 { need(id:6) 
@@ -26,7 +29,7 @@
 }
 ```
 
-### Successful response should look like
+### Successful response
 
 ```
 {
