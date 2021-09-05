@@ -3,6 +3,7 @@
 ```
 { allActiveNeeds 
   {
+    id
     title
     description  
     pointOfContact
@@ -11,155 +12,179 @@
     zipCode 
     supportersNeeded 
     status
-    categories
-      {
-      id
-      tag
+    categories{
+        id
+        tag
       }
+    supporters{
+      id
+      name
+      email
+    }
   }
 }
 ```
     
 ### Sample Successful Response: 
-```{
+```
+{
   "data": {
     "allActiveNeeds": [
       {
-        "id": "24",
-        "title": "Dolore reprehenderit adipisci.",
-        "description": "Incidunt corrupti autem. Ut temporibus sit. Eos est aut.",
-        "pointOfContact": "laveta@pollich.biz",
-        "startTime": "2021-09-02 18:05:47 -0600",
-        "endTime": "2021-09-02 18:05:48 -0600",
-        "zipCode": "12484-3107",
-        "supportersNeeded": 96,
+        "id": "1",
+        "title": "Qui maiores suscipit.",
+        "description": "Illum quisquam rerum. Atque reiciendis explicabo. Incidunt ducimus est.",
+        "pointOfContact": "fiona.macgyver@botsford-frami.io",
+        "startTime": "2021-09-05 11:09:10 -0600",
+        "endTime": "2021-09-05 11:09:11 -0600",
+        "zipCode": "35233-1863",
+        "supportersNeeded": 22,
         "status": "active",
         "categories": [
           {
             "id": "1",
-            "tag": "Saepe."
+            "tag": "Fuga."
           },
           {
             "id": "2",
-            "tag": "Et."
+            "tag": "Corporis."
           },
           {
             "id": "3",
-            "tag": "Aut."
+            "tag": "Sunt."
+          }
+        ],
+        "supporters": [
+          {
+            "id": "1",
+            "name": "Aliya",
+            "email": "supporter@example.com"
+          },
+          {
+            "id": "2",
+            "name": "Tanner",
+            "email": "supporterTNR@example.com"
           }
         ]
       },
       {
-        "id": "25",
-        "title": "Totam vel eligendi.",
-        "description": "Occaecati eum tempore. Quisquam omnis quia. Enim labore dolorem.",
-        "pointOfContact": "danial@wunsch.co",
-        "startTime": "2021-09-02 18:05:47 -0600",
-        "endTime": "2021-09-02 18:05:48 -0600",
-        "zipCode": "66570",
-        "supportersNeeded": 17,
+        "id": "2",
+        "title": "Adipisci necessitatibus deleniti.",
+        "description": "Vel fuga ullam. Culpa neque commodi. Dicta voluptas illo.",
+        "pointOfContact": "stewart@towne-hansen.biz",
+        "startTime": "2021-09-05 11:09:10 -0600",
+        "endTime": "2021-09-05 11:09:11 -0600",
+        "zipCode": "85413",
+        "supportersNeeded": 70,
         "status": "active",
         "categories": [
           {
             "id": "1",
-            "tag": "Saepe."
+            "tag": "Fuga."
+          }
+        ],
+        "supporters": [
+          {
+            "id": "3",
+            "name": "Tanner",
+            "email": "supporterTNR@example.com"
           }
         ]
       },
       {
-        "id": "26",
-        "title": "Adipisci rerum fugiat.",
-        "description": "Excepturi quis autem. Perferendis distinctio modi. Sit nihil esse.",
-        "pointOfContact": "kara_hand@yost.net",
-        "startTime": "2021-09-02 18:05:47 -0600",
-        "endTime": "2021-09-02 18:05:48 -0600",
-        "zipCode": "98980-6965",
-        "supportersNeeded": 97,
+        "id": "3",
+        "title": "Molestiae accusantium ad.",
+        "description": "Officiis ea magni. Quia ut non. Est explicabo nam.",
+        "pointOfContact": "kara@haley.org",
+        "startTime": "2021-09-05 11:09:10 -0600",
+        "endTime": "2021-09-05 11:09:11 -0600",
+        "zipCode": "24733",
+        "supportersNeeded": 14,
         "status": "active",
         "categories": [
           {
             "id": "1",
-            "tag": "Saepe."
+            "tag": "Fuga."
+          }
+        ],
+        "supporters": [
+          {
+            "id": "4",
+            "name": "Tanner",
+            "email": "supporterTNR@example.com"
           }
         ]
       },
       {
-        "id": "27",
-        "title": "Soluta ut quasi.",
-        "description": "Ipsam tempora est. Et quod facere. Atque tempore dicta.",
-        "pointOfContact": "clement_harvey@heathcote.biz",
-        "startTime": "2021-09-02 18:05:47 -0600",
-        "endTime": "2021-09-02 18:05:48 -0600",
-        "zipCode": "93501-9150",
-        "supportersNeeded": 57,
+        "id": "4",
+        "title": "Doloribus quis nesciunt.",
+        "description": "Nam totam aliquam. Sapiente omnis deleniti. Est eaque quas.",
+        "pointOfContact": "dewey@cronin-muller.info",
+        "startTime": "2021-09-05 11:09:10 -0600",
+        "endTime": "2021-09-05 11:09:11 -0600",
+        "zipCode": "06976",
+        "supportersNeeded": 20,
         "status": "active",
         "categories": [
           {
             "id": "1",
-            "tag": "Saepe."
+            "tag": "Fuga."
           }
-        ]
+        ],
+        "supporters": []
       },
       {
-        "id": "28",
-        "title": "Dicta aut quae.",
-        "description": "Magni error eveniet. Rerum quisquam est. Sequi quo accusamus.",
-        "pointOfContact": "breann@wisoky-doyle.co",
-        "startTime": "2021-09-02 18:05:47 -0600",
-        "endTime": "2021-09-02 18:05:48 -0600",
-        "zipCode": "62677-9091",
-        "supportersNeeded": 48,
+        "id": "5",
+        "title": "Autem omnis qui.",
+        "description": "Dolor distinctio incidunt. Inventore dolorem eius. Repellendus ipsam laborum.",
+        "pointOfContact": "marta@cormier.io",
+        "startTime": "2021-09-05 11:09:10 -0600",
+        "endTime": "2021-09-05 11:09:11 -0600",
+        "zipCode": "39410",
+        "supportersNeeded": 71,
         "status": "active",
         "categories": [
           {
             "id": "2",
-            "tag": "Et."
+            "tag": "Corporis."
           },
           {
             "id": "3",
-            "tag": "Aut."
+            "tag": "Sunt."
           }
-        ]
+        ],
+        "supporters": []
       },
       {
-        "id": "29",
-        "title": "This is a new need",
-        "description": "More about my new need",
-        "pointOfContact": "aliya@test.com",
-        "startTime": "string value",
-        "endTime": "string value",
-        "zipCode": "string value",
-        "supportersNeeded": 12,
-        "status": "active",
-        "categories": [
-          {
-            "id": "1",
-            "tag": "Saepe."
-          },
-          {
-            "id": "3",
-            "tag": "Aut."
-          }
-        ]
-      },
-      {
-        "id": "30",
+        "id": "6",
         "title": "Let's clean up the park!",
         "description": "There's lots of litter in the park - let's clean it up.",
         "pointOfContact": "aliya@test.com",
-        "startTime": "9/30/2021 11:00AM",
-        "endTime": "9/30/2021 3:00PM",
+        "startTime": "2021-09-30 11:00",
+        "endTime": "2021-09-30 3:00",
         "zipCode": "80218",
         "supportersNeeded": 12,
         "status": "active",
         "categories": [
           {
             "id": "1",
-            "tag": "Saepe."
+            "tag": "Fuga."
           },
           {
             "id": "3",
-            "tag": "Aut."
+            "tag": "Sunt."
+          }
+        ],
+        "supporters": [
+          {
+            "id": "5",
+            "name": "Tanner",
+            "email": "supporterTNR@example.com"
+          },
+          {
+            "id": "6",
+            "name": "Aliya",
+            "email": "aliya_supporter@example.com"
           }
         ]
       }
