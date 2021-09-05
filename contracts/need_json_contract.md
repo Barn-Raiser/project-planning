@@ -1,7 +1,7 @@
 ### Request: get info on one need, identified by ID number 
 
 ```
-{ need(id:28) 
+{ need(id:6) 
   {
     id
     title
@@ -17,6 +17,11 @@
         id
         tag
       }
+    supporters{
+      id
+      name
+      email
+    }
   }
 }
 ```
@@ -27,23 +32,35 @@
 {
   "data": {
     "need": {
-      "id": "28",
-      "title": "Dicta aut quae.",
-      "description": "Magni error eveniet. Rerum quisquam est. Sequi quo accusamus.",
-      "pointOfContact": "breann@wisoky-doyle.co",
-      "startTime": "2021-09-02 18:05:47 -0600",
-      "endTime": "2021-09-02 18:05:48 -0600",
-      "zipCode": "62677-9091",
-      "supportersNeeded": 48,
+      "id": "6",
+      "title": "Let's clean up the park!",
+      "description": "There's lots of litter in the park - let's clean it up.",
+      "pointOfContact": "aliya@test.com",
+      "startTime": "2021-09-30 11:00",
+      "endTime": "2021-09-30 3:00",
+      "zipCode": "80218",
+      "supportersNeeded": 12,
       "status": "active",
       "categories": [
         {
-          "id": "2",
-          "tag": "Et."
+          "id": "1",
+          "tag": "Fuga."
         },
         {
           "id": "3",
-          "tag": "Aut."
+          "tag": "Sunt."
+        }
+      ],
+      "supporters": [
+        {
+          "id": "5",
+          "name": "Tanner",
+          "email": "supporterTNR@example.com"
+        },
+        {
+          "id": "6",
+          "name": "Aliya",
+          "email": "aliya_supporter@example.com"
         }
       ]
     }
