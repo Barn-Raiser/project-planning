@@ -33,7 +33,7 @@
 * [x] Make a JSON contract for MVP
 
 ## Schema 
-![Screen Shot 2021-08-27 at 1 29 42 PM](https://user-images.githubusercontent.com/5446926/131179792-c03f225f-ba4f-451e-9d3f-4cf045c76934.png)
+![Screen Shot 2021-09-05 at 11 05 07 AM](https://user-images.githubusercontent.com/5446926/132135254-3b35a83d-fd4b-4b63-9d0e-27b3a77929d9.png)
 
 ## Rebase workflow
 ![Screen Shot 2021-08-25 at 11 58 11 AM](https://user-images.githubusercontent.com/5446926/130861474-f6672987-bf46-4925-9521-cf4c6fad0cfc.png)
