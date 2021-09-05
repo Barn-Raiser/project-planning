@@ -1,6 +1,8 @@
 ## Request
 To: `https://barn-raiser-be.herokuapp.com/graphql`    
 
+Creates a supporter record for a specific need. 
+
 Notes: 
 * Need input should be the ID of an existing need
 * Name, email, and need are all required fields
