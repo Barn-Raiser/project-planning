@@ -1,5 +1,8 @@
 ### Request: 
 
+To: `https://barn-raiser-be.herokuapp.com/graphql`
+Returns all needs with status 'active'
+
 ```
 { allActiveNeeds 
   {
