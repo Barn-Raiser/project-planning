@@ -1,4 +1,6 @@
 ## Request
+Returns needs where end time has not yet passed. 
+
 ```
 { upcomingActiveNeeds 
   {
