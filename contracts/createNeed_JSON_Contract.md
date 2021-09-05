@@ -1,6 +1,9 @@
-# Phase 1
 ## Request 
+To: `https://barn-raiser-be.herokuapp.com/graphql`    
+
 * NOTE: Category ID(s) must match the IDs of categories in the DB, which can be retrieved with the [allCategories query](https://github.com/Barn-Raiser/project-planning/blob/main/contracts/allCategories_JSON_Contract.md) 
+
+
 ```
 mutation {
   createNeed(input:
@@ -40,7 +43,7 @@ mutation {
 }
 ```
 
-## Response (with requested data returned)
+## Successful Response 
 ```{
     "data": {
         "createNeed": {
