@@ -20,21 +20,6 @@ Returns all categories in the database
 ```
 
 {
-data: 
-{allCategories: 
-[
-{
-supporters: 
-[
-{
-email: "testing@test.com", 
-name: "albert"
-}, 
-{
-email: "ran...ail=>"rando@test.com", :name=>"bob"}, {:email=>"kitty@test.com", :name=>"cat"}], :tag=>"Cleanup"}]}}
-
-
-{
     "data": {
         "allCategories": [
             {
